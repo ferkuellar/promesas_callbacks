@@ -1,4 +1,3 @@
-
 function saludar(str, callback) {
     var saludo = "¡Hola " + str.toUpperCase() + "!";
     setTimeout(function() {
@@ -10,6 +9,5 @@ function imprimirSaludo(saludo) {
     console.log(saludo);
 }
 
-saludar('Fernando', imprimirSaludo);
-
-console.log("final");
+saludar("Fernando", imprimirSaludo);
+console.log('Final');
